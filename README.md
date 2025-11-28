@@ -1,32 +1,45 @@
-# odoo_dev_dam
+# odoo_dev_dam – Gestión de Gimnasio con Odoo
 
-Proyecto de desarrollo con Odoo orientado a la gestión y publicación de eventos mediante el módulo **Eventos** y el **Website Builder**.
+Este proyecto corresponde al desarrollo de un sistema de gestión para un **gimnasio**, utilizando Odoo como base.  
+El objetivo es centralizar la administración de clases, eventos, monitores, usuarios y reservas, y publicar esta información en el sitio web del gimnasio.
 
----
-
-## 📌 Funcionalidad principal
-
-El proyecto permite:
-
-- Crear y gestionar eventos desde Odoo.
-- Publicar los eventos en páginas del sitio web.
-- Insertar bloques dinámicos del tipo **Evento** en el Website Builder.
-- Seleccionar y vincular un evento específico desde el panel lateral.
-- Mostrar información del evento en vivo (fecha, hora, ubicación, imagen, botón de registro).
 
 ---
 
-## 🧩 Módulos implicados
+## 🏋️‍♂️ Funcionalidad del proyecto
 
-- `event`
-- `website_event`
-- `website`
+El sistema permite:
+
+### 📅 Gestión de clases y eventos
+- Creación de clases como **Yoga**, **CrossFit**, **Spinning**, etc.
+- Gestión de eventos especiales del gimnasio.
+- Configuración de horarios, duración y monitores asignados.
+- Estado de eventos (Nuevo, Anunciado, Reservado, Finalizado).
+
+### 🌐 Publicación en la web
+- Inserción de bloques dinámicos de eventos en el sitio web.
+- Selección del evento desde el **Website Builder**.
+- Visualización pública de:
+  - Imagen del evento
+  - Fecha y hora
+  - Localización
+  - Botón de registro
+- Página de detalle del evento totalmente integrada con Odoo.
+
+### 🧑‍🤝‍🧑 Gestión de asistentes
+- Control de registros a clases o eventos.
+- Opcional: venta de entradas, inscripción online.
+
+## 🛒 Venta de productos:
+- Tienda de productos
+- Reserva de pistas
 
 ---
 
-## 🗄️ Copia y restauración
+## 🧩 Módulos utilizados
 
-### 🔹 Para hacer copia
+- `event` – Gestión de eventos
+- `website` – Constructor de páginas web
+- `website_event` – Publicación de eventos en la web
+- `calendar` – Horarios
 
-```bash
-sudo bash scripts/backup.sh
