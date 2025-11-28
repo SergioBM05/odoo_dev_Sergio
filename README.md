@@ -6,17 +6,17 @@ El objetivo es centralizar la administración de clases, eventos, monitores, usu
 
 ---
 
-## 🏋️‍♂️ Funcionalidad del proyecto
+##Funcionalidad del proyecto
 
 El sistema permite:
 
-### 📅 Gestión de clases y eventos
+###Gestión de clases y eventos
 - Creación de clases como **Yoga**, **CrossFit**, **Spinning**, etc.
 - Gestión de eventos especiales del gimnasio.
 - Configuración de horarios, duración y monitores asignados.
 - Estado de eventos (Nuevo, Anunciado, Reservado, Finalizado).
 
-### 🌐 Publicación en la web
+###Publicación en la web
 - Inserción de bloques dinámicos de eventos en el sitio web.
 - Selección del evento desde el **Website Builder**.
 - Visualización pública de:
@@ -26,17 +26,17 @@ El sistema permite:
   - Botón de registro
 - Página de detalle del evento totalmente integrada con Odoo.
 
-### 🧑‍🤝‍🧑 Gestión de asistentes
+###Gestión de asistentes
 - Control de registros a clases o eventos.
 - Opcional: venta de entradas, inscripción online.
 
-## 🛒 Venta de productos:
+##Venta de productos:
 - Tienda de productos
 - Reserva de pistas
 
 ---
 
-## 🧩 Módulos utilizados
+##Módulos utilizados
 
 - `event` – Gestión de eventos
 - `website` – Constructor de páginas web
